@@ -25,6 +25,11 @@ header nav ul {
 header nav ul li {
   list-style-type: none;
 }
+header nav ul li:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+  font-weight: 700;
+}
 header nav ul a {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
@@ -64,6 +69,10 @@ header nav ul a {
   font-style: "Montserrat", sans-serif;
   cursor: pointer;
   margin: 2rem 0;
+}
+#home .textos-home .btn-main:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
 }
 
 .img-home {
@@ -133,4 +142,50 @@ header nav ul a {
   font-family: "Montserrat", sans-serif;
   font-size: 1.375rem;
   color: #0c0421;
+}
+
+#desconto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+#desconto h4 {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.6rem;
+  color: #0c0421;
+  font-weight: 500;
+}
+#desconto p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  color: #0c0421;
+}
+#desconto .input-btn {
+  width: 790px;
+  height: 65px;
+  border: 1px solid #cad4fa;
+  border-radius: 65px;
+  margin: 0 auto;
+  display: inline-flex;
+}
+#desconto .input-btn input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  color: #0c0421;
+  width: 513.5px;
+  border: none;
+  outline: none;
+  margin-left: 2rem;
+}
+#desconto .input-btn button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  color: #0c0421;
+  width: 276.5px;
+  background: #4e75ff;
+  border-radius: 0 65px 65px 0;
+  border: none;
+  color: white;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */

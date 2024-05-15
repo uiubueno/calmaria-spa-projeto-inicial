@@ -19,6 +19,11 @@ header {
       gap: 3rem;
       li {
         list-style-type: none;
+        &:hover {
+          transform: scale(1.1);
+          transition: transform 0.2s ease;
+          font-weight: 700;
+        }
       }
       a {
         text-decoration: none;
@@ -60,6 +65,10 @@ header {
       font-style: variaveis.$ft-textos;
       cursor: pointer;
       margin: 2rem 0;
+      &:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s ease;
+      }
     }
   }
 }
