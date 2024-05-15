@@ -5,7 +5,7 @@
   background: variaveis.$gradiente-primario;
   padding: 5.313rem 0;
   .cards {
-    @include mixins.margem-central(80%);
+    @include mixins.margem-central(70%);
     display: flex;
     gap: 1.5rem;
     .card {
