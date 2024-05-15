@@ -27,16 +27,16 @@ header nav ul li {
 }
 header nav ul a {
   text-decoration: none;
-  color: #0c0421;
-  font-weight: 500;
   font-family: "Montserrat", sans-serif;
   font-size: 1.375rem;
+  color: #0c0421;
+  font-weight: 500;
 }
 
 #home {
   max-width: 1040px;
-  width: 80%;
   margin: 0 auto;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,6 +53,18 @@ header nav ul a {
 #home .textos-home h1 span {
   color: #4e75ff;
 }
+#home .textos-home .btn-main {
+  width: 280px;
+  height: 66px;
+  border-radius: 40px;
+  border: none;
+  background-color: #4e75ff;
+  color: white;
+  font-size: 1.3rem;
+  font-style: "Montserrat", sans-serif;
+  cursor: pointer;
+  margin: 2rem 0;
+}
 
 .img-home {
   max-width: 474px;
@@ -61,13 +73,20 @@ header nav ul a {
   width: 100%;
 }
 
-.btn-main {
-  width: 280px;
-  height: 66px;
-  border-radius: 40px;
-  border: none;
-  background-color: #4e75ff;
-  color: white;
-  font-size: 22px;
-  font-style: "Montserrat", sans-serif;
+#nosso-espaco {
+  margin: 0 auto;
+  width: 80%;
+}
+#nosso-espaco .detalhes {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6.375rem;
+}
+#nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
+  max-width: 508px;
+}
+#nosso-espaco .detalhes .espaco-textos .separador {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
