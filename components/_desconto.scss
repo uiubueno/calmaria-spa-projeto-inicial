@@ -41,16 +41,11 @@
       margin-left: 2rem;
     }
     button {
-      @include mixins.ff-fs-cl(
-        variaveis.$ft-textos,
-        1.375rem,
-        variaveis.$cor-primaria
-      );
+      @include mixins.ff-fs-cl(variaveis.$ft-textos, 1.375rem, white);
       width: calc($largura-input * 0.35);
       background: variaveis.$cor-secundaria;
       border-radius: 0 65px 65px 0;
       border: none;
-      color: white;
       cursor: pointer;
     }
   }
