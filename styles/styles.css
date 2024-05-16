@@ -63,16 +63,16 @@ header nav ul a {
   height: 66px;
   border-radius: 40px;
   border: none;
-  background-color: #4e75ff;
+  background-color: #cad4fa;
   color: white;
   font-size: 1.3rem;
   font-style: "Montserrat", sans-serif;
   cursor: pointer;
   margin: 2rem 0;
+  transition: 0.3s;
 }
 #home .textos-home .btn-main:hover {
-  transform: scale(1.1);
-  transition: transform 0.2s ease;
+  background: #4e75ff;
 }
 
 .img-home {
@@ -164,7 +164,7 @@ header nav ul a {
 #desconto .input-btn {
   width: 790px;
   height: 65px;
-  border: 1px solid #cad4fa;
+  border: 1px solid #e8f5c8;
   border-radius: 65px;
   margin: 0 auto;
   display: inline-flex;
@@ -249,9 +249,13 @@ header nav ul a {
   font-weight: bold;
 }
 #contatos .contatos-form .inputs .btn {
-  background: #4e75ff;
+  background: #cad4fa;
   margin-top: 2rem;
   color: white;
-  font-size: 1rem;
+  font-size: 1.375rem;
   width: 100%;
+  transition: 0.3s;
+}
+#contatos .contatos-form .inputs .btn:hover {
+  background: #4e75ff;
 }/*# sourceMappingURL=styles.css.map */

@@ -59,15 +59,15 @@ header {
       height: 66px;
       border-radius: 40px;
       border: none;
-      background-color: variaveis.$cor-secundaria;
+      background-color: variaveis.$cor-default;
       color: white;
       font-size: 1.3rem;
       font-style: variaveis.$ft-textos;
       cursor: pointer;
       margin: 2rem 0;
+      transition: 0.3s;
       &:hover {
-        transform: scale(1.1);
-        transition: transform 0.2s ease;
+        background: variaveis.$cor-secundaria;
       }
     }
   }
