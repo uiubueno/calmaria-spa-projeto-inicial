@@ -64,13 +64,14 @@
         textarea {
           @extend input;
         }
-        .btn {
-          @extend input;
-          background: variaveis.$cor-secundaria;
-          margin-top: 2rem;
-          color: white;
-          font-size: 1rem;
-        }
+      }
+      .btn {
+        @extend input;
+        background: variaveis.$cor-secundaria;
+        margin-top: 2rem;
+        color: white;
+        font-size: 1rem;
+        width: 100%;
       }
     }
   }

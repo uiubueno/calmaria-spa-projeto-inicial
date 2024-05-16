@@ -234,7 +234,7 @@ header nav ul a {
   gap: 1.5rem;
   align-self: stretch;
 }
-#contatos .contatos-form .inputs input, #contatos .contatos-form .inputs .form-group .btn, #contatos .contatos-form .inputs .form-group textarea {
+#contatos .contatos-form .inputs input, #contatos .contatos-form .inputs .btn, #contatos .contatos-form .inputs .form-group textarea {
   border-radius: 25px;
   padding: 1rem;
   border: none;
@@ -248,9 +248,10 @@ header nav ul a {
 #contatos .contatos-form .inputs .form-group label {
   font-weight: bold;
 }
-#contatos .contatos-form .inputs .form-group .btn {
+#contatos .contatos-form .inputs .btn {
   background: #4e75ff;
   margin-top: 2rem;
   color: white;
   font-size: 1rem;
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
