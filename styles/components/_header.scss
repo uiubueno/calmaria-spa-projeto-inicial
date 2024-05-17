@@ -1,6 +1,10 @@
 @use "../abstract/variaveis";
 @use "../abstract/mixins";
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background: variaveis.$gradiente-primario;
   padding: 2rem;

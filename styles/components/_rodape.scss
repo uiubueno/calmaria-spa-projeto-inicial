@@ -1,16 +1,12 @@
 @use "../abstract/variaveis";
 @use "../abstract/mixins";
 
-small {
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
   background: #e8f5c8;
   margin: 5rem 0 0 0;
-  @include mixins.ff-fs-cl(
-    variaveis.$ft-textos,
-    0.938rem,
-    variaveis.$cor-primaria
-  );
+  @include mixins.ff-fs-cl(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
 }

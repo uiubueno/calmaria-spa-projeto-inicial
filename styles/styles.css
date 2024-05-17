@@ -4,6 +4,10 @@ body {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
   padding: 2rem;
@@ -183,10 +187,14 @@ header nav ul a {
   font-size: 1.375rem;
   color: white;
   width: 276.5px;
-  background: #4e75ff;
+  background: #cad4fa;
   border-radius: 0 65px 65px 0;
   border: none;
   cursor: pointer;
+  transition: 0.3s;
+}
+#desconto .input-btn button:hover {
+  background: #4e75ff;
 }
 
 #contatos {
@@ -260,7 +268,7 @@ header nav ul a {
   background: #4e75ff;
 }
 
-small {
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -268,6 +276,6 @@ small {
   background: #e8f5c8;
   margin: 5rem 0 0 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.938rem;
+  font-size: 1rem;
   color: #0c0421;
 }/*# sourceMappingURL=styles.css.map */

@@ -43,10 +43,14 @@
     button {
       @include mixins.ff-fs-cl(variaveis.$ft-textos, 1.375rem, white);
       width: calc($largura-input * 0.35);
-      background: variaveis.$cor-secundaria;
+      background: variaveis.$cor-default;
       border-radius: 0 65px 65px 0;
       border: none;
       cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background: variaveis.$cor-secundaria;
+      }
     }
   }
 }
