@@ -258,4 +258,16 @@ header nav ul a {
 }
 #contatos .contatos-form .inputs .btn:hover {
   background: #4e75ff;
+}
+
+small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background: #e8f5c8;
+  margin: 5rem 0 0 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.938rem;
+  color: #0c0421;
 }/*# sourceMappingURL=styles.css.map */
